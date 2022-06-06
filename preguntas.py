@@ -151,7 +151,7 @@ def pregunta_01():
     """
     En esta función se realiza la carga de datos.
     """
-    # Lea el archivo `mushrooms.csv` y asignelo al DataFrame `df`
+    # Lea el archivo `german.csv` y asignelo al DataFrame `df`
     df = ____
 
     # Asigne la columna `default` a la variable `y`.
