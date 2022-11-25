@@ -152,16 +152,15 @@ def pregunta_01():
     En esta función se realiza la carga de datos.
     """
     # Lea el archivo `german.csv` y asignelo al DataFrame `df`
-    df = ____
+    df = pd.read_csv(ruta + "german.csv", sep=",")
 
     # Asigne la columna `default` a la variable `y`.
-    ____ = ____
+    y = df['default'].copy()  
 
     # Asigne una copia del dataframe `df` a la variable `X`.
-    ____ = ____.____()
+    X = df.copy() 
 
     # Remueva la columna `default` del DataFrame `X`.
-    ____.____(____)
 
     # Retorne `X` y `y`
     return X, y
